@@ -1,0 +1,185 @@
+/* section 1*/
+
+.header
+{
+    background-color: #343333;
+    display: flex;
+   padding:  24px 0;
+}
+.container-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header .logo-brand img
+{
+    height: 80px;
+    
+}
+body{
+    margin: auto;
+}
+.p1{
+    color: #dadada;
+    font-family: sans-serif;
+}
+.p2
+{
+    color: white;
+}
+.header .container-box .social-media
+{
+    border-left: 2px solid rgb(255, 255, 255);
+    padding: 0px 24px;
+
+}
+/* ---------------------------------------------------------------------------------*/
+/* section 2*/
+.header2
+{
+    background-color: #3c3c3c;
+    color: #f2f2f2;
+    display: flex;
+    padding:  24px 0;
+}
+.container-center
+{
+    width: 100%;
+    justify-content: space-between;
+    margin: 48px 0px 0px;
+    padding: 0px 0px 16px;
+    line-height: 1.25 !important;
+}
+.header2 .container-center .row .col{
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.col h1, p 
+{
+    margin: 0px 0px 16px;
+    
+    
+}
+.primary-button
+{
+    
+    color: white;
+    margin: 8px 8px 0 0;
+    padding: 8px 24px;
+    background-color: #CD181F;
+    border-color: #CD181F;
+}
+.container-center .col 
+{
+    margin: 48px 0px 0 0px;
+    padding: 0px 24px;
+ 
+}
+/*-------------------------------------------------------------------*/
+/* Section 3*/
+.header3
+{
+    background-color: #343333;
+    color: white;
+}
+.percent 
+{
+    padding-top: 30px;
+   
+    padding-bottom: 30px;
+}
+/*---------------------------------------------------------------------*/
+/* Sectiion 4*/
+.header4
+{
+    background-color: #3c3c3c;
+    color: #f2f2f2;
+}
+.containertext-center
+{
+    padding: 0px 12px;
+}
+.header4 .container-4 .containertext-center h1
+{
+    padding: 0px 0px 16px;
+}
+.header4 .container-4 .containertext-center .row .col img
+{
+    margin-top: 120px;
+    height: 60%;
+    width: 110%;
+}
+.down{
+    margin-top: 200px;
+    justify-content: center;
+    padding-left: 50px;
+}
+/*----------------------------------------------------------------------*/
+/*section 5*/
+.header5
+{
+    background-color: #343333;
+    color: #FFFFFF;
+    padding: 58px 0px;
+}
+.head{
+    margin: 0px 0px 24px;
+    padding: 0px 12px;
+  
+}
+.container-5 .row h2{
+    margin: 0px 34.5px 24px;
+    border-color: #CD181F !important;
+    border-radius: 50px !important;
+}
+.bordercolor
+{
+    border-radius: 50px;
+    border: 5px solid red;
+    margin: 0px 0px 8px;
+    padding-top: 40px;
+    padding-left: 10%;
+    height: 60%;
+    font-family: sans-serif;
+}
+@media (min-width: 1200px) {
+    .container-box{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .container-center{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .container-3
+    {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .container-4
+    {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0px 12px;
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    .container-5
+    {
+        max-width: 1200px;
+        margin: auto;
+    }
+   
+    .combine
+{
+    display: flex;
+    justify-content: space-between;
+}
+.percent .container .row .col{
+    border-left: 5px solid red;
+    padding: 0px 24px;
+
+}
+
+}
